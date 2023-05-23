@@ -1,0 +1,84 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    background-color: rgb(237, 12, 80);
+    margin: 0%;
+}
+
+
+#container-encabezado{
+    margin: 5% 5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(150, 220, 118);
+    border-radius: 10px ;
+    box-shadow: 5px 5px 8px greenyellow;
+    width: 90%;
+  
+}
+#e-commerce{
+    font-size: 2em;
+    text-align: center;
+    height: 15px;
+    
+}
+#name-shop{
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+  
+    }
+#paragraf-description-shop{
+    font-size:2em ;
+    text-align: center;
+
+}
+/*section*/
+#container{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+/*div*/
+.card-style {
+width: 340px;
+height: auto;
+display: flex;
+flex-wrap: wrap;
+margin: 10px 20px 10px 10px;
+justify-content: space-around;
+background-color: white;
+border-radius: 20px;
+border: black solid ;
+box-shadow: 10px 9px 10px rosybrown;
+text-align: justify;
+}
+
+.card-style img {
+    max-width: 80%;
+    max-height: 80%;
+    margin: 10%;
+     
+}
+.card-style h1 {
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 0px;
+    margin: 10px 20px 10px 10px;
+  
+}
+.card-style h2 {
+    text-align: center;
+   font-size: 1em;
+   margin-left: 5%;
+   margin-right: 5%;    
+}
+.card-style p{
+    font-size: 0.8em;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
